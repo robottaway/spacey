@@ -6,8 +6,17 @@ Spacey is a project which contains some 'test the waters' code.
 We are interested in these:
 
 JOOQ (No-Hibernate, better integration with SQL server, ability to fine tune SQL statements)
+- Easy to handle multi-tenet cases w/o a lot of work!
+- Easy to handle multi-connection pools w/o a lot of hassle!
+- Removes a large portion of class files and auto-magic from the equation, EXPLICIT FOR THE WIN!
 
 REST (JAX-RS -> RestEasy or Jersey, Maybe Restlet?)
+- JSON bindings a must
+- XML a possibility
+- HTML a possibility
+- Other formats???
+- Probably should have a good setup to allow rendering in any format
+- Light weight HTTP layer, ie most code will easily land in the business object
 
 Guice, we need to have good DI which enables good testing.
 
